@@ -1,0 +1,22 @@
+/* CSS-Regel für die Bildanpassung */
+.bild-anpassen {
+    width: 200px; /* Breite des Bildes */
+    height: auto; /* Höhe automatisch beibehalten, um das Bildverhältnis beizubehalten */
+    border-radius: 50%; /* Bildrundung auf 50%, um es rund zu gestalten */
+}
+
+/* CSS-Regel für das Zentrieren des Bildes */
+.bild-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Höhe des Containers auf die volle Bildschirmhöhe setzen */
+    background-color: #f0f0f0; /* Graue Hintergrundfarbe für den Container */
+}
+
+/* CSS-Regel für den Hintergrund der gesamten Seite */
+body {
+    background-color: #f0f0f0; /* Graue Hintergrundfarbe für die gesamte Seite */
+    margin: 0; /* Setze den äußeren Rand auf 0, um die Standard-Randvorgabe zu entfernen */
+    padding: 0; /* Setze das Padding auf 0, um die Standard-Padding-Vorgabe zu entfernen */
+}
